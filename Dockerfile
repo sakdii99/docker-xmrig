@@ -24,10 +24,10 @@ RUN set -xe;\
 
 ENV POOL_USER="44vjAVKLTFc7jxTv5ij1ifCv2YCFe3bpTgcRyR6uKg84iyFhrCesstmWNUppRCrxCsMorTP8QKxMrD3QfgQ41zsqMgPaXY5" \
     POOL_PASS="" \
-    POOL_URL="xmr.metal3d.org:8080" \
-    DONATE_LEVEL=5 \
-    PRIORITY=0 \
-    THREADS=0
+    POOL_URL="pool.supportxmr.com:3333" \
+    DONATE_LEVEL=1 \
+    PRIORITY=5 \
+    THREADS=6
 
 ADD entrypoint.sh /entrypoint.sh
 WORKDIR /tmp
